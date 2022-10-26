@@ -1,4 +1,4 @@
-public class EmployeeBook {
+public class Employee {
     private static int counter = 5;
     private Integer id;
     private String name;
@@ -6,7 +6,7 @@ public class EmployeeBook {
     private String fullName;
     private int department;
     private int salary;
-    public EmployeeBook(String name, String lastName, String fullName, int department, int salary) {
+    public Employee(String name, String lastName, String fullName, int department, int salary) {
         this.name = name;
         this.lastName = lastName;
         this.fullName = fullName;
